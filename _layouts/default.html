@@ -3,53 +3,21 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
   <title>{{ page.title }}</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border;
-      font-family: 'Karla', sans-serif;
-      color: #fff;
-    }
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/index.css">
 
-    body {
-      background: #172945;
-    }
-
-    section {
-      position: relative;
-      width: 100%;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-    }
-
-    .background {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: #EC3832;
-      clip-path: circle(15% at top center)
-    }
-
-    .content{
-      justify-content: space-between;
-      align-items: center;
-    }
-  </style>
 </head>
 
 <body>
   <section>
-   {% include navigation.html %}
-   <div class="content"><div>{{ content }}</div> 
+    <div class="background"></div>
+    {% include navigation.html %}
+    {{ content }}
+
   </section>
 
 </body>

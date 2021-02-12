@@ -1,38 +1,64 @@
 <nav>
   <a href="/" class="logo">CARTO</a>
   <ul>
-   
+
     <li><a href="/">About</a></li>
-   <li><a href="/">2021 Events</a></li> 
+    <li><a href="/">2021 Events</a></li>
     <li><a href="/">Past Editions</a></li>
   </ul>
 
 </nav>
 
 <style type="text/css">
-nav{
-  position:absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 40px ;
-  display: flex;
-  justify-content: space-between;
-  color: #fff;
-}
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+  }
 
-.logo{
-  position: relative;
-  max-width: 150px;
-  text-decoration: none;
-  font-size: 30px;
-  font-weight: bold;
-}
+  .logo {
+    position: relative;
+    max-width: 140px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+  }
 
-ul{
-  list-style: none;
-  color: #fff;
-}
+  nav ul {
+    position: relative;
+    display: flex;
+    margin-right: 40px;
+  }
 
+  ul li {
+    list-style: none;
+  }
 
+  a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 450;
+    margin-left: 40px;
+    text-decoration: none;
+  }
+
+  @media (max-width:960px) {
+    nav {
+      padding: 40px;
+    }
+
+    .logo {
+      max-width: 40px;
+    }
+
+    nav ul {
+
+      display: none;
+    }
+  }
 </style>

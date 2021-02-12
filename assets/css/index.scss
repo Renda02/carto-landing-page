@@ -1,0 +1,70 @@
+---
+---
+h1 {
+  width: 441px;
+  margin: 0 0 44px;
+  font-family: Karla;
+  font-size: 74px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.95;
+  letter-spacing: -2px;
+}
+
+p {
+  width: 351px;
+  font-size: 18px;
+  font-weight: normal;
+  background-color: #fff;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #000000;
+  margin-left: 80px;
+  padding: 10px;
+  border: solid 0.5rem #ec3832;
+}
+
+h2 {
+  width: 102px;
+  margin: 0 6px;
+  font-family: Karla;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: -1.6px;
+}
+
+h4 {
+  width: 322px;
+  height: 252px;
+  margin: 40px 0 0 130px;
+  font-family: Karla;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 991px) {
+  h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 25px;
+    margin-bottom: 1rem;
+  }
+
+  p,
+  h4 {
+    text-align: center;
+    margin: 10px;
+    display: block;
+    padding: 5px;
+  }
+}
