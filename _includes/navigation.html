@@ -1,6 +1,6 @@
 <nav>
   <a href="/" class="logo">CARTO</a>
-  <div class="toggle"></div>
+  <div class="toggle" onclick=toggleMenu();></div>
   <ul>
 
     <li><a href="/">About</a></li>
@@ -37,7 +37,7 @@
     margin-right: 40px;
   }
 
-  
+
 
   ul li {
     list-style: none;
@@ -65,15 +65,20 @@
       display: none;
     }
 
-    .toggle{
+    .toggle {
       width: 30px;
       height: 30px;
       cursor: pointer;
+
+      filter: invert(1)
+    }
+
+    .toggle.active {
       background: url("assets/images/icon.png");
-      background-size:30px;
+      background-size: 36px;
       background-repeat: no-repeat;
       background-position: center;
-      filter:invert(1)
     }
+
   }
 </style>

@@ -1,7 +1,7 @@
 ---
 ---
 
-h1 {
+h1.heading {
   width: 441px;
   margin: 0 0 44px;
   font-family: Karla;
@@ -29,7 +29,7 @@ p.text {
   box-shadow: 5px -5px 0px 0px #ec3832;
 }
 
-h2 {
+h2.sub-heading{
   width: 102px;
   margin: 0 6px;
   font-family: Karla;
@@ -41,7 +41,7 @@ h2 {
   letter-spacing: -1.6px;
 }
 
-h4 {
+h4.paragraph {
   width: 322px;
   height: 252px;
   margin: 40px 0 0 130px;
@@ -53,18 +53,22 @@ h4 {
   letter-spacing: 2px;
 }
 
+.media-first{
+  margin: 40px 0;
+}
+
 @media (max-width: 991px) {
-  h1 {
+  h1.heading{
     text-align: center;
     font-size: 40px;
   }
-  h2 {
+  h2.heading{
     font-size: 25px;
     margin-bottom: 1rem;
   }
 
-  p,
-  h4 {
+  p.text,
+  h4.paragraph {
     text-align: center;
     margin: 10px;
     display: block;

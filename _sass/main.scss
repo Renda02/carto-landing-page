@@ -20,10 +20,17 @@ section {
   max-width: 1300px;
 }
 
-.image .image-first{
-  
+#image-first {
+  z-index: 10;
+  position: relative;
+  margin-bottom: -46px;
 }
 
+#video-last {
+  z-index: 1;
+  position: relative;
+  margin-top: 5px;
+}
 .background {
   position: absolute;
   top: 0;
@@ -69,7 +76,6 @@ button {
   background-color: #ec3832;
   margin-left: 16px;
   color: #fff;
-  margin-bottom: 20px;
 }
 
 .media {
@@ -78,11 +84,20 @@ button {
   justify-content: center;
 }
 
+.image {
+  width: 344px;
+  height: 179px;
+  margin: 7px 7px 0 0;
+  object-fit: contain;
+  -webkit-box-shadow: 5px -5px 0px 0px #ec3832;
+  -moz-box-shadow: 5px -5px 0px 0px #ec3832;
+  box-shadow: 5px -5px 0px 0px #ec3832;
+}
+
 .video {
   -webkit-box-shadow: 5px -5px 0px 0px #ec3832;
   -moz-box-shadow: 5px -5px 0px 0px #ec3832;
   box-shadow: 5px -5px 0px 0px #ec3832;
-
   margin: 4px 0;
   right: 0;
   left: 0;

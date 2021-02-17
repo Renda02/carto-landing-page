@@ -24,12 +24,17 @@ paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
   <h4 class="paragraph">{{page.paragraph}}</h4>
   </div>
   <div class="right"><button>Sign Up</button>
+  <div class="media-first">
   <div class="media">
-    <div class="image image-first"><img src="/assets/images/first.jpg" alt="event"></div>
+    <div class="image " id="image-first"><img src="/assets/images/first.jpg" alt="event"></div>
     <div class="video">
-   <iframe width="390" height="215" src="https://www.youtube.com/embed/oVH3j31pV7Y" frameborder="0" allow="accelerometer; autoplay;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-   <div class="image image-second"><img src="/assets/images/second.jpg" alt="event"></div>
-    <div class="video"><iframe width="390" height="215" src="https://www.youtube.com/embed/gpS7fAZm1_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+   <iframe width="390" height="215" src="https://www.youtube.com/embed/oVH3j31pV7Y" frameborder="0" id="video-first" allow="accelerometer; autoplay;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div>
+<div class='media-second'>
+<div class="video " ><iframe width="390" height="215" src="https://www.youtube.com/embed/gpS7fAZm1_k" frameborder="0" id="video-last" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+   <div class="image" id="image-second"><img src="/assets/images/second.jpg" alt="event"></div>
+</div>
 
 </div>
 </div>
