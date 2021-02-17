@@ -1,5 +1,6 @@
 ---
 ---
+
 h1 {
   width: 441px;
   margin: 0 0 44px;
@@ -12,7 +13,7 @@ h1 {
   letter-spacing: -2px;
 }
 
-p {
+p.text {
   width: 351px;
   font-size: 18px;
   font-weight: normal;
@@ -23,7 +24,9 @@ p {
   color: #000000;
   margin-left: 80px;
   padding: 10px;
-  border: solid 0.5rem #ec3832;
+  -webkit-box-shadow: 5px -5px 0px 0px #ec3832;
+  -moz-box-shadow: 5px -5px 0px 0px #ec3832;
+  box-shadow: 5px -5px 0px 0px #ec3832;
 }
 
 h2 {

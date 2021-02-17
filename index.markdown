@@ -16,6 +16,7 @@ paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
 ---
 
 <div class="content">
+
   <div class="left">
   <h1 class="heading">{{ page.heading | capitalize }}</h1>
   <h2 class="sub-heading">{{page.subHeading}}</h2>
@@ -24,11 +25,11 @@ paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
   </div>
   <div class="right"><button>Sign Up</button>
   <div class="media">
-    <div class="image"><img src="/assets/images/hivan-arvizu-soyhivan-m-anhvw-0-n-ddy-unsplash.jpg" alt="event"></div>
+    <div class="image image-first"><img src="/assets/images/first.jpg" alt="event"></div>
     <div class="video">
    <iframe width="390" height="215" src="https://www.youtube.com/embed/oVH3j31pV7Y" frameborder="0" allow="accelerometer; autoplay;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-   
-    <div class="video"><iframe width="410" height="215" src="https://www.youtube.com/embed/u-uq9ecjlko" frameborder="0" allow="accelerometer; autoplay;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
- <div class="image"><img src="/assets/images/hivan-arvizu-soyhivan-m-anhvw-0-n-ddy-unsplash.jpg" alt="event"></div>
-  </div>
+   <div class="image image-second"><img src="/assets/images/second.jpg" alt="event"></div>
+    <div class="video"><iframe width="390" height="215" src="https://www.youtube.com/embed/gpS7fAZm1_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+</div>
 </div>
