@@ -10,6 +10,11 @@ body {
   background: #172945;
 }
 
+.content {
+  display: flex;
+  max-width: 1300px;
+}
+
 section {
   position: relative;
   width: 100%;
@@ -17,7 +22,6 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1300px;
 }
 
 #image-first {
@@ -124,5 +128,12 @@ button {
 
   .background {
     clip-path: circle(200px at bottom right);
+  }
+}
+
+@media (max-width: 640px) {
+  .left {
+    padding: 0px;
+    align-items: center;
   }
 }

@@ -9,6 +9,7 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/index.css">
+  <script src="/assets/js/index.js"></script>
 
 </head>
 
@@ -16,10 +17,11 @@
   <section>
     <div class="background"></div>
     {% include navigation.html %}
-    {{ content }}
+    <div class="content">
+      {{ content }}
+      <div>
 
   </section>
-<script src="/assets/js/index.js"></script>
 </body>
 
 </html>

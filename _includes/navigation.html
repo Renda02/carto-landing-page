@@ -1,7 +1,7 @@
 <nav>
   <a href="/" class="logo">CARTO</a>
-  <div class="toggle" onclick=toggleMenu();></div>
-  <ul>
+  <div class="toggle" onclick="toggleMenu()"></div>
+  <ul class="navigation">
 
     <li><a href="/">About</a></li>
     <li><a href="/">2021 Events</a></li>
@@ -21,6 +21,7 @@
     justify-content: space-between;
     color: #fff;
     height: 80px;
+    box-sizing: border-box;
   }
 
   .logo {
@@ -39,16 +40,17 @@
 
 
 
-  ul li {
+  nav ul li {
     list-style: none;
   }
 
-  a {
+  nav ul li a {
     display: inline-block;
     color: #fff;
     font-weight: 450;
     margin-left: 40px;
     text-decoration: none;
+
   }
 
   @media (max-width:960px) {
@@ -65,20 +67,43 @@
       display: none;
     }
 
+    nav ul li a {
+      font-size: 1.2rem;
+      margin: 5px 0;
+    }
+
     .toggle {
       width: 30px;
       height: 30px;
       cursor: pointer;
-
-      filter: invert(1)
-    }
-
-    .toggle.active {
       background: url("assets/images/icon.png");
       background-size: 36px;
       background-repeat: no-repeat;
       background-position: center;
+      filter: invert(1);
+      z-index: 11;
     }
 
+    .toggle.active {
+      position: fixed;
+      right: 20px;
+      background: url("assets/images/icons.png");
+      background-size: 36px;
+      background-repeat: no-repeat;
+    }
+
+    nav ul .navigation.active {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: #fff;
+      z-index: 10;
+    }
   }
 </style>
