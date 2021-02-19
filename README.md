@@ -1,13 +1,13 @@
 ### About this project
--This project is based on [Jekyl](https://jekyllrb.com/docs/).
--This is a annual conference landing page which keeps all the information.
--I followed through step-by-step tutorial on how to step up my page. (https://jekyllrb.com/docs/step-by-step/01-setup/) .
--Create ```_layouts``` directory on the root which I added  ```default.html``` in the directory.
--I then created ``` _includes``` directory which I added ```navigation.html``` which I created and my navbar content in.
--I then embbed the ``` {% include navigation.html %}``` at the top of ```{{ content }}`` in the body of ``` default.html```. 
--Inside ```index.markdown``` I then changed layout to ```default``` which the file will render the content to ```default.html```.
--Also the ```index.markdown``` is where I am able to change the content of the landing page and render it on  landing page.
--I then went created ```assets``` directory which I have ```images``` and ```css``` folder.
+* This project is based on [Jekyl](https://jekyllrb.com/docs/).
+* This is a annual conference landing page which keeps all the information.
+* I followed through step-by-step tutorial on how to step up my page. (https://jekyllrb.com/docs/step-by-step/01-setup/) .
+* Create ```_layouts``` directory on the root which I added  ```default.html``` in the directory.
+* I then created ``` _includes``` directory which I added ```navigation.html``` which I created and my navbar content in.
+* I then embbed the ``` {% include navigation.html %}``` at the top of ```{{ content }}`` in the body of ``` default.html```. 
+* Inside ```index.markdown``` I then changed layout to ```default``` which the file will render the content to ```default.html```.
+* Also the ```index.markdown``` is where I am able to change the content of the landing page and render it on  landing page.
+* I then went created ```assets``` directory which I have ```images``` and ```css``` folder.
 
 
 ## Instructions

@@ -27,13 +27,13 @@ section {
 #image-first {
   z-index: 10;
   position: relative;
-  margin-bottom: -46px;
+  margin-bottom: -26px;
 }
 
 #video-last {
   z-index: 1;
   position: relative;
-  margin-top: 5px;
+  margin-bottom: -26px;
 }
 .background {
   position: absolute;
@@ -91,7 +91,7 @@ button {
 .image {
   width: 344px;
   height: 179px;
-  margin: 7px 7px 0 0;
+  margin: 7px  0;
   object-fit: contain;
   -webkit-box-shadow: 5px -5px 0px 0px #ec3832;
   -moz-box-shadow: 5px -5px 0px 0px #ec3832;
@@ -102,14 +102,15 @@ button {
   -webkit-box-shadow: 5px -5px 0px 0px #ec3832;
   -moz-box-shadow: 5px -5px 0px 0px #ec3832;
   box-shadow: 5px -5px 0px 0px #ec3832;
-  margin: 4px 0;
+  margin: 10px 0;
   right: 0;
   left: 0;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 980px) {
   section {
-    padding: 20px 20px 80px;
+    
+    padding: 0 0 0 80px;
     justify-content: center;
   }
 
